@@ -36,7 +36,6 @@ public class Controller implements Initializable {
     }
 
     public void sendMsg() {
-        //showAlert(msgField.getText());
         textField.appendText(msgField.getText()+"\n");
         msgField.clear();
         msgField.requestFocus();
